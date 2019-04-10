@@ -1,0 +1,26 @@
+{
+  "name": " a excellent php-framework",
+  "description": "This is my private Swoole framework",
+  "keywords": [
+    "php",
+    "swoole",
+    "ZhengWeiZhao"
+  ],
+  "authors": [
+    {
+      "name": "zhengweizhao",
+      "email": "3275697530@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+       "Zheng\\": "framework/Zheng",
+       "App\\": "application/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-swoole":">=4.0",
+    "tymon/jwt-auth": "1.*@rc"
+  }
+}
